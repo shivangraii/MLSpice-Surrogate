@@ -1,0 +1,19 @@
+{
+  "n": 1000,
+  "workers": 1,
+  "ngspice_sequential_s": 6.118526393000025,
+  "ngspice_parallel_s": 6.372971190999976,
+  "surrogate_batch_s": 0.0055840269999976044,
+  "surrogate_single_calls_s": 0.2192511970000055,
+  "speedup_batch_vs_seq": 1095.719342510817,
+  "speedup_single_vs_seq": 27.906467452489533,
+  "speedup_batch_vs_parallel": 1141.2858840049862,
+  "mape_percent": {
+    "gain_db": 0.17214649100242072,
+    "log_ugbw": 0.05336477822552849,
+    "pm_deg": 0.11902173773522635,
+    "power_uw": 1.0861317428833794,
+    "vout": 0.21457455207755274,
+    "vtail": 0.22572669511880336
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "spec": {
+    "gain": 45.0,
+    "ugbw": 80000000.0,
+    "pm": 60.0
+  },
+  "results": [
+    {
+      "method": "random search (ngspice)",
+      "spice_calls": 600,
+      "seconds": 3.6,
+      "specs_met": true,
+      "power_uw": 26.06,
+      "gain_db": 58.82,
+      "ugbw_mhz": 83.48,
+      "pm_deg": 77.94,
+      "design": {
+        "w1_um": 59.8284,
+        "l1_um": 0.278,
+        "w3_um": 33.8827,
+        "l3_um": 0.3495,
+        "ibias_ua": 5.6483,
+        "ratio": 1.5616
+      }
+    },
+    {
+      "method": "differential evolution (ngspice)",
+      "spice_calls": 600,
+      "seconds": 3.82,
+      "specs_met": true,
+      "power_uw": 25.04,
+      "gain_db": 60.93,
+      "ugbw_mhz": 90.84,
+      "pm_deg": 72.22,
+      "design": {
+        "w1_um": 55.8311,
+        "l1_um": 0.1826,
+        "w3_um": 11.295,
+        "l3_um": 0.763,
+        "ibias_ua": 5.0078,
+        "ratio": 1.7767
+      }
+    },
+    {
+      "method": "surrogate DE + 1 ngspice check",
+      "spice_calls": 1,
+      "seconds": 1.69,
+      "specs_met": true,
+      "power_uw": 18.01,
+      "gain_db": 61.79,
+      "ugbw_mhz": 80.52,
+      "pm_deg": 78.42,
+      "design": {
+        "w1_um": 60.0,
+        "l1_um": 0.18,
+        "w3_um": 9.6605,
+        "l3_um": 0.3842,
+        "ibias_ua": 5.0,
+        "ratio": 1.0
+      }
+    }
+  ]
+}
